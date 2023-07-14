@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f057840d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="contianer">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Design</p>
+                <h1>Hi, I'm <span>Karan Mali</span><br>from Rajasthan </h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about---------------->
+    <div id="about">
+        <div class="conatainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/3.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                  <p>Iam an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or I am currently pursuing my Bachelors in Technology from the Mit University world peace, Communication and Technology, Pune, with an expected graduation date of June 2025, I am excellent in working
+                    with others to achieve a certain objective on time and with excellence.  <p>
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Building andriod/ios apps</li>
+                            <li><span>photoshop</span><br>editing wedding photo in adobe photoshop and candid photo in photoshop</li>
+                            <li><span>video editing</span><br>editing cinematic video in filmora </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current </span><br>UI/UX Design training at MIT WPU</li>
+                            <li><span>2020-2022</span><br>Work at father shop with the knowledge of photoshop and camera</li>
+                            <li><span>2018-2019</span><br>at computer center work for taking knowledge of microsoft software with working ms excel- ms word for project development </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BSC CS PARSUING 2ND YEAR IN MIT WPU</li>
+                            <li><span>2022</span><br> 12th Higher secondary education from CBSE with 71%</li>
+                            <li><span>2020</span><br>1oth senior secondary education from CBSE with 7o%</li>
+                            <li><span>2019</span><br>computer course with RSCIT certification with 80%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------services---------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web  Design</h2>
+                <p>Web Design: Proficient in creating visually appealing and engaging website designs, applying design principles, and utilizing design tools such as Adobe Photoshop, Illustrator, or Sketch.
+                    Front-End Development: Skilled in HTML, CSS, and JavaScript to implement designs and ensure responsive and interactive web experiences.
+                    UI Design: Basic understanding of user interface design, focusing on intuitive navigation, clear information hierarchy, and consistent visual elements.
+                    Responsive Design: Knowledgeable about designing websites that adapt seamlessly to different screen sizes and devices using responsive design techniques.
+                    Typography and Color Theory: Understanding of typography principles and color theory to create visually appealing and cohesive designs.
+                    Collaboration: Effective communicator and team player, able to collaborate with developers and stakeholders to achieve design objectives and project goals.
+                    Problem-Solving: Strong analytical and problem-solving skills to identify design challenges and propose creative solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX  Design</h2>
+                <p>UX Design: Proficient in conducting user research, creating user personas, and developing user flows and wireframes to map out intuitive user experiences.
+                    UI Design: Skilled in creating visually appealing and engaging user interfaces, applying design principles, and utilizing design tools such as Adobe XD, Sketch, or Figma.
+                    Prototyping: Experienced in creating interactive prototypes to demonstrate user flows and gather feedback for iterative design improvements.
+                    User-Centered Design: Strong understanding of designing for user needs and goals, employing usability testing and user feedback to inform design decisions.
+                    Collaboration: Effective communicator and team player, able to collaborate with cross-functional teams including developers and product managers to achieve design objectives.
+                    Visual Design: Basic knowledge of typography, color theory, and layout design to create visually appealing and cohesive designs.
+                    Design Tools: Proficient in using design software such as Adobe Creative Suite (Photoshop, Illustrator) and prototyping tools like InVision or Proto.io.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>APP Design</h2>
+                <p>UI/UX Design: Proficient in designing user interfaces and user experiences for mobile applications, employing design thinking methodologies, wireframing, and prototyping techniques.
+                    Wireframing and Prototyping: Skilled in creating comprehensive wireframes and interactive prototypes using tools like Adobe XD, Sketch, or Figma to visualize app flows, interactions, and screen layouts.
+                    Visual Design: Strong understanding of visual design principles, typography, color theory, and iconography to create aesthetically pleasing and cohesive app designs.
+                    User-Centered Design: Experienced in conducting user research, gathering insights, and incorporating user feedback to inform design decisions and create user-centric app experiences.
+                    Collaboration: Effective communicator and team player, able to collaborate with clients, developers, and stakeholders to understand requirements, provide design solutions, and ensure successful project outcomes.
+                    Problem-Solving: Strong analytical and problem-solving skills to identify design challenges and propose creative solutions that enhance app usability and engagement.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+   <div class="work-list">
+    <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Highly skilled and innovative Social Media App Developer/Engineer with a strong passion for creating engaging and user-friendly applications. Demonstrated expertise in designing, developing, and implementing cutting-edge features for social media platforms. Proven ability to optimize app performance and user experience while adhering to industry best practices and trends. Committed to delivering high-quality products that foster positive online communities and drive user engagement.</p>
+      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+            <h3>Music App</h3>
+            <p>Innovative and passionate Music App Developer with a deep appreciation for music and a strong background in app development. Experienced in designing and creating user-centric music applications that deliver exceptional listening experiences. Skilled in mobile app development, audio processing, and API integration. Committed to creating intuitive interfaces, optimizing performance, and staying current with industry trends to provide cutting-edge music app solutions.</p>
+      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>Results-oriented and experienced Online Shopping Website Developer with a strong track record of designing and developing robust e-commerce websites. Skilled in creating user-friendly and visually appealing online shopping platforms that deliver exceptional customer experiences. Proficient in web development technologies, UI/UX design principles, and backend integration. Committed to staying updated with industry trends and leveraging innovative solutions to drive online sales and customer satisfaction.</p>
+      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+   </div>
+   <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> karanmali517@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone-flip fa-flip-horizontal"></i> 9057573428</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://instagram.com/karan._.xyz?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/karan-mali-4bb157250"><i class="fa-brands fa-linkedin"></i></a>
+               
+                </div>
+                <a href="images/karan-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                 </form>
+                 <SPan id="msg"></SPan>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made By karan._.xyz <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwjY3t9-UAID8zMOpfQP3uIKSX_AZC4L-UOQGUX-DH_mHjbyHRiciKQ6ldi1VscWBPpkw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+    </html>
+
+  
